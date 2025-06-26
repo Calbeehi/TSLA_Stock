@@ -1,4 +1,4 @@
-# README: Medium-Term and Long-Term Trend Prediction Using LSTM
+# Medium-Term and Long-Term Trend Prediction Using LSTM
 
 ## Project Overview
 
