@@ -1,0 +1,14 @@
+--- Final Model Evaluation Metrics (Long-Term LSTM, H=250_long_term_h250) ---
+Accuracy: 0.8179
+Precision_macro: 0.8006
+Recall_macro: 0.8029
+F1-Score_macro: 0.8005
+Precision_Decrease: 0.8801
+Recall_Decrease: 0.8393
+F1-Score_Decrease: 0.8592
+Precision_Stable: 0.6011
+Recall_Stable: 0.6859
+F1-Score_Stable: 0.6407
+Precision_Increase: 0.9206
+Recall_Increase: 0.8834
+F1-Score_Increase: 0.9016

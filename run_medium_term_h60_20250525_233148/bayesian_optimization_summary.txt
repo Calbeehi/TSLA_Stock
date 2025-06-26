@@ -1,0 +1,44 @@
+--- Bayesian Optimization Summary (Medium-Term LSTM V1, Horizon=60) ---
+Best Objective Function Value (-Validation Accuracy): -0.8739
+Best Hyperparameters Found:
+  time_steps: 37
+  lstm_units1: 30
+  dropout_rate1: 0.395598
+  dense_units: 15
+  dense_activation: tanh
+  learning_rate: 0.010000
+  batch_size: 32
+  use_batch_norm_lstm: False
+  use_batch_norm_dense: True
+  l1_reg_lstm: 0.000905
+  l2_reg_lstm: 0.004773
+  l1_reg_dense: 0.000000
+  l2_reg_dense: 0.000000
+
+--- Optimization Process (All Trials) ---
+Trial | -Val_Accuracy | time_steps | lstm_units1 | dropout_rate1 | dense_units | dense_activation | learning_rate | batch_size | use_batch_norm_lstm | use_batch_norm_dense | l1_reg_lstm | l2_reg_lstm | l1_reg_dense | l2_reg_dense
+001   |        -0.5469 | time_steps=34, lstm_units1=52, dropout_rate1=0.41188, dense_units=78, dense_activation=tanh, learning_rate=0.00002, batch_size=64, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00325, l2_reg_lstm=0.00028, l1_reg_dense=0.00361, l2_reg_dense=0.00469
+002   |        -0.7587 | time_steps=10, lstm_units1=149, dropout_rate1=0.34699, dense_units=79, dense_activation=relu, learning_rate=0.00001, batch_size=64, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00487, l2_reg_lstm=0.00116, l1_reg_dense=0.00045, l2_reg_dense=0.00309
+003   |        -0.8045 | time_steps=21, lstm_units1=148, dropout_rate1=0.28671, dense_units=105, dense_activation=elu, learning_rate=0.00022, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00193, l2_reg_lstm=0.00008, l1_reg_dense=0.00115, l2_reg_dense=0.00121
+004   |        -0.7059 | time_steps=30, lstm_units1=103, dropout_rate1=0.43328, dense_units=33, dense_activation=tanh, learning_rate=0.00004, batch_size=128, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00284, l2_reg_lstm=0.00016, l1_reg_dense=0.00421, l2_reg_dense=0.00225
+005   |        -0.7092 | time_steps=22, lstm_units1=141, dropout_rate1=0.39091, dense_units=49, dense_activation=tanh, learning_rate=0.00037, batch_size=128, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00270, l2_reg_lstm=0.00293, l1_reg_dense=0.00483, l2_reg_dense=0.00304
+006   |        -0.7814 | time_steps=18, lstm_units1=66, dropout_rate1=0.16611, dense_units=17, dense_activation=tanh, learning_rate=0.00015, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00356, l2_reg_lstm=0.00395, l1_reg_dense=0.00303, l2_reg_dense=0.00463
+007   |        -0.7159 | time_steps=30, lstm_units1=140, dropout_rate1=0.44002, dense_units=62, dense_activation=relu, learning_rate=0.00013, batch_size=128, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00137, l2_reg_lstm=0.00281, l1_reg_dense=0.00191, l2_reg_dense=0.00486
+008   |        -0.4789 | time_steps=40, lstm_units1=30, dropout_rate1=0.10000, dense_units=120, dense_activation=elu, learning_rate=0.00001, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00000, l2_reg_lstm=0.00500, l1_reg_dense=0.00500, l2_reg_dense=0.00000
+009   |        -0.7556 | time_steps=19, lstm_units1=150, dropout_rate1=0.50000, dense_units=120, dense_activation=relu, learning_rate=0.00004, batch_size=64, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00143, l2_reg_lstm=0.00304, l1_reg_dense=0.00131, l2_reg_dense=0.00016
+010   |        -0.7716 | time_steps=22, lstm_units1=83, dropout_rate1=0.44860, dense_units=105, dense_activation=relu, learning_rate=0.00002, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=False, l1_reg_lstm=0.00001, l2_reg_lstm=0.00068, l1_reg_dense=0.00000, l2_reg_dense=0.00107
+011   |        -0.8376 | time_steps=19, lstm_units1=150, dropout_rate1=0.23514, dense_units=104, dense_activation=elu, learning_rate=0.00042, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00186, l2_reg_lstm=0.00000, l1_reg_dense=0.00069, l2_reg_dense=0.00062
+012   |        -0.8508 | time_steps=10, lstm_units1=150, dropout_rate1=0.50000, dense_units=120, dense_activation=elu, learning_rate=0.01000, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00000, l2_reg_lstm=0.00000, l1_reg_dense=0.00500, l2_reg_dense=0.00000
+013   |        -0.4226 | time_steps=10, lstm_units1=123, dropout_rate1=0.41841, dense_units=97, dense_activation=relu, learning_rate=0.00001, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00065, l2_reg_lstm=0.00085, l1_reg_dense=0.00176, l2_reg_dense=0.00369
+014   |        -0.8416 | time_steps=39, lstm_units1=47, dropout_rate1=0.33537, dense_units=26, dense_activation=tanh, learning_rate=0.00081, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00231, l2_reg_lstm=0.00414, l1_reg_dense=0.00209, l2_reg_dense=0.00221
+015   |        -0.8690 | time_steps=40, lstm_units1=31, dropout_rate1=0.48299, dense_units=32, dense_activation=tanh, learning_rate=0.00409, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00115, l2_reg_lstm=0.00431, l1_reg_dense=0.00121, l2_reg_dense=0.00025
+016   |        -0.7647 | time_steps=13, lstm_units1=106, dropout_rate1=0.47454, dense_units=38, dense_activation=tanh, learning_rate=0.00003, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=True, l1_reg_lstm=0.00120, l2_reg_lstm=0.00455, l1_reg_dense=0.00248, l2_reg_dense=0.00037
+017   |        -0.8704 | time_steps=25, lstm_units1=148, dropout_rate1=0.37097, dense_units=73, dense_activation=elu, learning_rate=0.00737, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=False, l1_reg_lstm=0.00316, l2_reg_lstm=0.00000, l1_reg_dense=0.00500, l2_reg_dense=0.00000
+018   |        -0.8283 | time_steps=28, lstm_units1=141, dropout_rate1=0.29794, dense_units=27, dense_activation=relu, learning_rate=0.00064, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=False, l1_reg_lstm=0.00466, l2_reg_lstm=0.00264, l1_reg_dense=0.00114, l2_reg_dense=0.00337
+019   |        -0.8691 | time_steps=32, lstm_units1=30, dropout_rate1=0.13004, dense_units=95, dense_activation=relu, learning_rate=0.00744, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00386, l2_reg_lstm=0.00500, l1_reg_dense=0.00454, l2_reg_dense=0.00500
+020   |        -0.8739 | time_steps=37, lstm_units1=30, dropout_rate1=0.39560, dense_units=15, dense_activation=tanh, learning_rate=0.01000, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=True, l1_reg_lstm=0.00090, l2_reg_lstm=0.00477, l1_reg_dense=0.00000, l2_reg_dense=0.00000
+021   |        -0.3464 | time_steps=40, lstm_units1=30, dropout_rate1=0.50000, dense_units=15, dense_activation=tanh, learning_rate=0.00001, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=True, l1_reg_lstm=0.00000, l2_reg_lstm=0.00500, l1_reg_dense=0.00000, l2_reg_dense=0.00000
+022   |        -0.8531 | time_steps=26, lstm_units1=137, dropout_rate1=0.38906, dense_units=29, dense_activation=tanh, learning_rate=0.00197, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00088, l2_reg_lstm=0.00483, l1_reg_dense=0.00000, l2_reg_dense=0.00232
+023   |        -0.8701 | time_steps=34, lstm_units1=140, dropout_rate1=0.10000, dense_units=44, dense_activation=tanh, learning_rate=0.00320, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=True, l1_reg_lstm=0.00266, l2_reg_lstm=0.00423, l1_reg_dense=0.00000, l2_reg_dense=0.00440
+024   |        -0.8719 | time_steps=40, lstm_units1=30, dropout_rate1=0.23150, dense_units=15, dense_activation=tanh, learning_rate=0.00915, batch_size=32, use_batch_norm_lstm=True, use_batch_norm_dense=True, l1_reg_lstm=0.00214, l2_reg_lstm=0.00500, l1_reg_dense=0.00000, l2_reg_dense=0.00000
+025   |        -0.8427 | time_steps=15, lstm_units1=61, dropout_rate1=0.10000, dense_units=77, dense_activation=elu, learning_rate=0.00132, batch_size=32, use_batch_norm_lstm=False, use_batch_norm_dense=True, l1_reg_lstm=0.00497, l2_reg_lstm=0.00485, l1_reg_dense=0.00479, l2_reg_dense=0.00442
